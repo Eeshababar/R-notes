@@ -1,0 +1,11 @@
+In the beginning of program write its basic purpose.
+Know and list all the required packages in the beginning.
+Know and change the working directory in the beginning.
+Use comments and documentation, especially making your own functions.
+Add function definitions on top and call them one by one.
+Use loops when can to avoid typing code again and again.
+Write pacckages when it is required and feasible.
+When possible specify path to files as soon as possible and set directory accordingly so that you do not have to add path to each file,
+You can see outputs immediately in console and see graphs on the right. You can also save you graphs in pdf using pdf commands.
+You can also generate dynamic files with code, output and graphs in a single file using knitr.
+Knitr package installion done by install.packages("knitr"). Then go to files and open R markdown and select an output file. You can either select HTML, PDF or WORD output format.
