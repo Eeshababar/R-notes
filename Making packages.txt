@@ -1,0 +1,30 @@
+The most important components of R package are are following
+Package: Package name
+Title: Brief package description
+Description: Longer package description
+Version: Version number(major.minor.patch)
+Author: Name and email of package creator
+Maintainer: Name and email of package maintainer (who to contact with issues)
+License: Abbreviation for an open source license
+
+Use devtools and roxygen2 and install them from CRAN as install.packages(c("devtools", "roxygen2"))  # installations can be `c`ombined
+library("devtools")
+library("roxygen2")
+Set working directory using the command setwd(parentDirectory) and create.package command with your package name then it will open the Rstudio separately. Add 
+your function separately and add following things for dumentation in each file 
+#' Name of function
+#'
+#' Purpose.
+#' @param Input.
+#' @return Output.
+#' @export
+#' @examples
+#' Example
+
+and save each file as .R. Setwd as the new package directly, write document(). It will create a new
+file man having the documentation of functions if not then add documentation file manually. Now see package folder. It should have four things .R files, documentation as .Rmd files, 
+Discription and namespace.
+Change the directory to parent directory, install package, check package list.
+Try to find out the documentation of one of the function, if you are able to do so you are pretty much done.
+Test your functions file with known test cases.
+
